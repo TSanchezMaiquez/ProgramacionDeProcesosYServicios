@@ -5,15 +5,12 @@ import java.util.Queue;
 
 public class Buffer {
 	
-	private char contenido;
-	private boolean disponible;
+	
 	private Queue<Character> cola;
 	private int contador;
 	private final int max=10;
-	private final int min=0;
 	
 	public Buffer () {
-		this.contenido = ' ';
 		cola = new LinkedList<>();
 		contador=0;
 	}
