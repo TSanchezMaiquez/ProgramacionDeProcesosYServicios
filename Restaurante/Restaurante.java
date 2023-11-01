@@ -45,8 +45,5 @@ public class Restaurante {
 		System.out.println("Programa iniciado a la/s "+ hora + "\nAlumno: Toñi Sanchez Maiquez");
 		System.out.println("El servicio ha durado "+ totalTiempoTranscurrido + " milisegundos");
 	}
-	
-	
-	
-	
+
 }
